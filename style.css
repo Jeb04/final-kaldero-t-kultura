@@ -1,0 +1,140 @@
+/* index page only*/
+body{
+            background-color: #fcef91;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }  
+
+         .navbar{
+          background-color: #ffbd59;
+          padding: 50px;
+          gap: 25px;
+          justify-content: flex-start;
+        }
+
+        .nav-btn{
+          background-color: #fb9e3a;
+          padding: 10px 25px;
+          border-radius: 25px;
+          font-size: x-large;
+          border: none;
+        }
+
+        .nav-btn.active{
+          background-color: #e6521f;
+        }
+
+        .banner{
+          margin: 30px;
+          max-width: none;
+        }
+
+        .content{
+          display: flex;
+          gap: 50px;
+          align-items: center;
+          margin-left: 50px;
+        }
+
+        .polaroid img{
+          height: 500px;
+          width: 480px;
+          display: block;
+          border: 30px solid white;
+          border-bottom: 100px solid white;
+          margin-left: 500px;
+          margin: 50px;
+          box-shadow: 0 4px 10px;
+        }
+
+        .textbox{
+          line-height: 1.5;
+          margin-top: 200px;
+          
+        }
+
+        /* recipe page only */
+         body {
+            background-color: #fcef91;
+            font-size: xx-large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .container{
+            padding: 30px 50px;
+        }
+
+        .recipe{
+            display: flex;
+            align-items: center;
+            margin-bottom: 35px;
+            margin-left: 30px;
+        }
+
+        .recipe img{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            margin-right: 25px;
+        }
+
+        .definition-text{
+            flex: 1;
+        }
+
+        .definition-text h2{
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+
+        .definition-text p{
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .view-btn {
+            background: #c0392b;
+            color: white;
+            border: none;
+            font-size: 20px;
+            padding: 15px 35px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+    /* about us page only */
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcef91;
+}
+
+        
+        h2{
+            text-align: center;
+        }
+
+
+        .box{
+        background-color:  #ffbd59;
+         align-items: stretch;
+         padding: 20px;
+         margin: 20px;
+         border-radius: 20px;
+         border: 2px dashed #e6953b;
+         text-align: center;
+        }
+
+        email{
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        footer{
+            background-color: #ffbd59;
+            text-align: center;
+            padding: 25px;
+            margin-top: 20px;
+        }
+    
