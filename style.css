@@ -26,7 +26,7 @@ body{
 
         .banner{
           margin: 30px;
-          max-width: none;
+          max-width: 1300px;
         }
 
         .content{
